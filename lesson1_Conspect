@@ -1,0 +1,69 @@
+const fs = require('node:fs');
+// const student = require('./shlak/studentBuilder');
+
+
+// fs.readFile('./text.txt', (err, data)=>{
+//     // console.log(err);
+//
+//     console.log(data.toString());
+// })  //вивід тексту з файла
+//
+// fs.appendFile('./text.txt','\n hello from appendFile\n',(err)=>{
+//     console.log('ERROR', err);
+// }) //записує текст до файла
+//
+// fs.writeFile('./text.txt','write file\n',(err)=>{
+//     console.log('ERROR', err);
+// }) // перезаписує файл
+//
+// fs.mkdir('./created',(err)=>{
+//     console.log(err);
+// }) // створює директорію
+//
+// fs.appendFile('./created/data.json', JSON.stringify({name:'Maksym'}),(err)=>{
+//     console.log(err);
+// }) // створили в дерикторії created файлик data який містить певний об'єкт
+//
+// fs.unlink('./text.txt',(err)=>{
+//     console.log(err);
+// }) // видаляє файл
+//
+// fs.rmdir('./created',{recursive:true},(err)=>{
+//     console.log(err);
+// }) // видаляє дерикторію
+//
+// fs.appendFile('./text.txt','hello',(err)=>{
+//     console.log(err);
+// })
+//
+// fs.rename('./text.txt', 'nonText.js',(err)=>{
+//     console.log(err);
+// }) // переіменування файла
+//
+// fs.rename('./nonText.js', './shlak/file.json',(err)=>{
+//     console.log(err);
+// }) // переіменували файл і перемістили його в дерикторію
+//
+// fs.readdir('./shlak',(err, files)=>{
+//     console.log(files);
+//     for (const fileElement of files) {
+//         fs.stat(`./shlak/${fileElement}`, (err, stats)=>{
+//             console.log(stats.isDirectory());
+//
+//             if(stats.isFile()){
+//                 fs.readFile(`./shlak/${fileElement}`,(err, data)=>{
+//                     console.log(data.toString());
+//                 })
+//             }
+//         })
+//     }
+//
+// })
+
+
+
+
+
+// let student1 = student.studentBuilder('kokos',3);
+//
+// console.log(student1);
